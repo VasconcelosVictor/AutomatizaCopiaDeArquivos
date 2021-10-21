@@ -40,7 +40,7 @@ listaR= []
 
 for r in panoramica:
     for n in nome:
-        if cont >= tamanho:# COMPARA SE ESSE DIRETORIO EXISTE, SE NÃO O SISTEMA FECHA POIS AS PASTAS ABACARAM
+        if cont >= tamanho:
             break
         caminho = f"//ManausSt02/Projeto/OS703-19_PM-Manaus/Fotos_360//{nome[cont][0:11]}//08_Proj_Processing/Panoramica"
         caminhoAtual= f"C:/Users/topo/Desktop/Foto/{nome[cont][0:11]}/PAN"
